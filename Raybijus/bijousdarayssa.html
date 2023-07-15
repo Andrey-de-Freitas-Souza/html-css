@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayssa bijus</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+        :root{
+            --cor0: #ffa69ea2;
+            --cor1: #48304D;
+            --cor2: #efe8ae73;
+            --cor3: #0f2218;
+            --cor4: #efe8ae33;
+
+            --fonte-destaque: 'Kaushan Script', cursive;
+            --fonte-padrao: 'Amatic SC', cursive;
+            --fonte-preco: Arial, Helvetica, sans-serif;
+         
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: #ffa69e1a;
+        }
+        header{
+            background-color: var(--cor0);
+        }
+        header> h1{
+            padding: 30px 0px 15px 0px;
+            color: var(--cor1);
+            font-size: 3em;
+            text-align: center;
+            font-family: var(--fonte-destaque);
+        } 
+        header>p{
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            font-family: var(--fonte-padrao);    
+        }
+        nav{
+            background-color: var(--cor0);
+            padding: 5px;
+        }
+        nav >a {
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 25px;
+            padding:0px 30px 5px 0px;
+            color: var(--cor1);
+            font-size: 1em;
+
+        }
+        a>img{
+            width: 15px;
+            height: 15px;
+        }
+        picture{
+            display: inline-block;
+        }
+        picture>img{
+            min-width: 100px;
+            max-width: 450px;
+            display: inline-block;
+        }
+        source>picture{
+            max-width: 100px;
+        }
+        .whats{
+            width: 18px;
+            height: 18px;    
+        }
+        nav> a:hover{
+            text-decoration: underline;
+        }
+        main>p{  
+            background-color: white;
+            padding: 15px;
+            font-size: 1.7em;
+            font-weight: bold;
+            font-family: var(--fonte-padrao);
+            text-align: justify;
+            padding-bottom: 5px;
+        }
+        main{
+            min-width: 300px;
+            max-width: 1000px; 
+            margin: auto;
+            background-color: white;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+        }
+        main>h1{
+            display: inline-block;
+            margin-right: 190px;
+            font-family: var(--fonte-destaque);
+        }
+
+        div >h1{
+            text-align: center;
+            font-family: var(--fonte-destaque);
+            color: var(--cor1);
+            background-image: linear-gradient(to top,#ffa69e8a,transparent);
+            padding: 5px;
+            font-size: 1.3em;
+            
+        }
+        div >h2{
+            font-size: 0.7em;
+            text-align: center;
+            padding: 10px;
+            background-color: var(--cor2);
+            margin-bottom: 20px;
+            font-family: var(--fonte-preco);
+            font-size: 1.2em;
+            font-weight: bold;
+            
+        }
+        div >p{
+            text-align: center;
+            text-indent: -180px;
+            font-size: 1.7em;
+            font-weight: bold;
+            font-family: var(--fonte-padrao);
+            
+        }
+        div{
+            text-align: center;
+        }
+        .cor{
+            text-indent: -250px;
+        }
+        .variacao{
+            text-indent: -10px;    
+        }
+
+
+           
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bijous da Rayssa</h1>
+        <p>Bijouterias lindas e personalizáveis</p>
+        <nav>            
+            <a href="https://www.instagram.com/ray_fsz/"><img src="https://cdn.discordapp.com/attachments/825423486012620863/1129082430033248286/Instagram-Icon.png"> Instagram</a>
+            <a href="https://wa.me/5511972798075"><img class="whats" src="https://cdn.discordapp.com/attachments/825423486012620863/1129083891123245116/whatsapp.png" alt=""> Whatssap</a>
+        </nav>
+    </header>
+    <main>
+        <p>Olá! Seja bem vindo(a) a minha loja de bijuterias, aqui você poderá ver os modelos e encomendálos, ou personaliza-los através do meu instagram ou do meu whatsapp!</p>
+        <div class="container">
+            <h1>Phone Strap</h1>
+            <picture>
+                <img src="https://cdn.discordapp.com/attachments/825423486012620863/1129178955753197619/celulares2.png" alt="" >
+            </picture>
+            <div>              
+            <p class="cor">Cores:</p>
+            <h2>PREÇO: R$8,00 CADA</h2>
+        </div>
+        <div class="container">
+            <h1>Kit Estrelar</h1>
+            <picture>
+                <img src="https://cdn.discordapp.com/attachments/825423486012620863/1129133683845116004/Sem_Titulo-3.png" alt="" >
+            </picture>
+            <div>              
+            <p>Tamanhos P,M,G.</p>
+            <p class="cor">Cores:</p>
+            
+            <h2>PREÇO: R$10,00 KIT COM AS 3 PULSEIRAS</h2>
+        </div>
+        <div class="container">
+            <h1>Pulseira Animada</h1>
+            <picture>
+                <img src="https://cdn.discordapp.com/attachments/825423486012620863/1129136517625958510/Sem_Titulo-4.png" alt="" >
+            </picture>
+            <div>              
+            <p>Tamanhos P,M,G.</p>
+            <p class="variacao">Variações: florida,bolinhas coloridas,</p>
+            <p class="variacao">bolinhas  com duas cores</p>
+            
+            <h2>PREÇO: R$5,00 CADA</h2>
+        </div>
+        <div class="container">
+            <h1>Pulseira Melhores Amigos</h1>
+            <picture>
+                <img src="https://cdn.discordapp.com/attachments/825423486012620863/1129139931781025863/Sem_Titulo-5.png" alt="" >
+            </picture>
+            <div>              
+            <p>Tamanhos P,M,G.</p>
+            <p class="cor">Cores:</p>
+            
+            <h2>PREÇO: R$8,00 O PAR</h2>
+        </div>
+        <div class="container">
+            <h1>Brincos Divertidos</h1>
+            <picture>
+                <img src="https://cdn.discordapp.com/attachments/825423486012620863/1129154520908300398/brincos2.png" alt="" >
+            </picture>
+            <div>              
+            <p class="variacao">Variações: Pringles,Estrela,Oreo </p>
+            <p class="variacao">mordida,Marshmallow,lã, baralho.</p>
+            <h2>PREÇO: R$8,00 O PAR</h2>
+        </div>
+        <div class="container">
+            <h1>Brincos Divertidos</h1>
+            <picture>
+                <img src="https://cdn.discordapp.com/attachments/825423486012620863/1129154520526635129/brincos3.png" alt="" >
+            </picture>
+            <div>              
+            <p class="variacao">Variações: Ursinho,Oreo,</p>
+            <p class="variacao">Havainas,Marshmallow,Flor.</p>
+            <h2>PREÇO: R$8,00 O PAR</h2>
+        </div>
+
+    </main>
+</body>
+</html>
