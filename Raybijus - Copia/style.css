@@ -34,7 +34,7 @@ a> h1{
 header>p{
     padding-bottom: 20px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
     font-family: var(--fonte-padrao);    
 }
