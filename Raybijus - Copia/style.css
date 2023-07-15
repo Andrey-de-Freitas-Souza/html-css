@@ -4,7 +4,7 @@
 :root{
     --cor0: #ffa69ea2;
     --cor1: #48304D;
-    --cor2: #efe8ae73;
+    --cor2: #f8e8578a;
     --cor3: #0f2218;
     --cor4: #efe8ae33;
 
@@ -95,6 +95,7 @@ aside{
     padding: 5px;
     margin-left: 50px;
     margin-bottom: 10px;
+    margin-top: 10px;
     border-radius: 5px;
 }
 a{
@@ -106,6 +107,11 @@ main{
     margin: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.144);
 }
 .fundo {
     background-image: url('imagens/papel.jpg');
@@ -129,12 +135,15 @@ div{
     text-align: center;
 }
 div >h1{
+    display: inline-block;
+    width: 300px;
     text-align: center;
     font-family: var(--fonte-destaque);
     color: var(--cor1);
-    background-image: linear-gradient(to top,#ffa69e8a,transparent);
+    background-image: linear-gradient(to top,#ffa69e8a,#fdddda28);
     padding: 5px;
     font-size: 2em;
+    margin-top: 20px;
     
 }
 div >h2{
@@ -143,9 +152,12 @@ div >h2{
     padding: 10px;
     background-color: var(--cor2);
     margin-bottom: 20px;
+    margin-top: 20px;
     font-family: var(--fonte-preco);
     font-size: 1.2em;
     font-weight: bold;
+    display: inline-block;
+    border-radius: 10px;
     
 }
 div >p{
