@@ -6,6 +6,7 @@
     <title>Aprendendo HTML</title>
     <link rel="shortcut icon" href="imagens/html.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/stylecodigos.css">
 </head>
 <body>
     <Header>
@@ -17,3 +18,135 @@
             <a href="pgprojetos.html">Projetos</a>
         </nav>
     </Header>
+    <main>
+        
+        <article>
+            <h2>Cabeçalho em HTML:</h2>
+            
+
+<p id="cabecalho">
+  <strong>&lt!DOCTYPE html&gt</strong> : Define o tipo de documento como HTML5. <br> 
+  <strong>&lthtml lang="pt-br"&gt</strong> : Inicia o elemento HTML e define o idioma. <br>
+  <strong>&lthead></strong> : Inicia o cabeçalho do documento HTML <br>
+      <strong>&ltmeta charset="UTF-8"&gt</strong> : Especifica que suporta a maioria dos caracteres e idiomas. <br>
+      <strong>&ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt</strong> : Define a configuração da viewport <br>
+      <strong>&ltlink rel="shortcut icon" href="html.ico" type="image/x-icon"&gt</strong>: Define o favicon <br>
+      <strong>&lttitle>Favicon&lt/title &gt</strong>: Define o título do documento <br>
+  <strong>&lt/head &gt</strong> : Encerra a seção do cabeçalho
+</p>
+
+            <h2>Códigos básicos em HTML:</h2>
+                <p>&lth1&gt .. &lth6&gt : Títulos ordem semântica</p>
+                <p>&ltp&gt : parágrafo</p>
+                <p>&ltbr&gt : pula uma linha</p>
+                <p>&lthr&gt : faz uma linha</p>
+            <h2>Mais alguns códigos:</h2>
+                <p>&ltcode&gt : usado para códigos-fonte</p>
+                <p>&ltpre&gt : texto formatado</p>
+                <p>&ltblockquote cite = "Andrey"&gt : citações</p>
+                <p>&ltabbr title = "Nome completo"&gt : abreviações</p>
+
+            <h2>Símbolos especiais e emojis:</h2>
+                <p>obs: não deve haver espaço entre o símbolo & e os códigos*</p>
+                <ul class="simbolos">
+                    <li>& reg;    &reg;</li>
+                    <li>& copy; &copy;</li>
+                    <li>& trade; &trade;</li>
+                    <li>& euro;  &euro;</li>
+                    <li>& pound; &pound;</li>
+                    <li>& yen; &yen;</li> 
+                    <li>& cent; &cent;</li>
+                    <li>& Delta; &Delta;</li>
+                    <li>& uparrow; &uparrow;</li>
+                    <li>& uarr; &uarr;</li>
+                </ul>
+                <ul class="simbolos">
+                    <li>& #x1F596;   &#x1F596;</li>
+                    <li>& #x1F680; &#x1F680;</li>
+                    <li>& #x1f913; &#x1f913;</li>
+                    <li>& #x1F6F0;  &#x1F6F0;</li>
+                    <li>& #x1F5A5; &#x1F5A5;</li>
+                    <li>& #x1F310; &#x1F310;</li> 
+                    <li>& #x1F4E1; &#x1F4E1;</li>
+                    <li>& #X1F48E; &#X1F48E;</li>
+                    <li>& #x1F4BB; &#x1F4BB;</li>
+                    <li>& #x1F50C; &#x1F50C;</li>
+                </ul>
+            <h2>Listas:</h2>
+                <ol type="1" start="1"><!-- 1 A a I i-->
+                    <h3>Listas Ordenadas</h3>
+                    <li>Acordar</li>
+                    <li>Levantar</li>
+                    <li>Tomar café</li>
+                    <li>Escovar os dentes</li>
+                    <li>Estudar HTML</li>
+                    <li>Dormir</li>
+                </ol>
+                <ul type = "disc"><!-- disc circle square-->
+                    <h3>Listas não ordenadas</h3>
+                    <li>Ovo</li>
+                    <li>Manteiga</li>
+                    <li>Danone</li>
+                    <li>Pão</li>
+                    <li>Óleo</li>
+                    <li>feijão</li>
+                </ul> <br>
+                <pre class="lista">
+<strong>
+<h3>Listas Ordenadas</h3>
+<p>&ltol type="1,A,a,I,i" start="1">
+  &lth3>Listas Ordenadas&lt/h3&gt
+  &ltli>Acordar&lt/li&gt
+  &ltli>Levantar&lt/li&gt
+  &ltli>Tomar café&lt/li&gt
+  &ltli>Escovar os dentes&lt/li&gt
+  &ltli>Estudar HTML&lt/li&gt
+  &ltli>Dormir&lt/li&gt
+&lt/ol>
+</p>
+</strong>
+                </pre>
+                <pre class="lista">
+<strong>
+<h3>Listas não ordenadas</h3>
+<p>&ltul type = "disc,circle ou square">
+  &lth3>Listas não ordenadas&lt/h3&gt
+  &ltli>Ovo&lt/li&gt
+  &ltli>Manteiga&lt/li&gt
+  &ltli>Danone&lt/li&gt
+  &ltli>Pão&lt/li&gt
+  &ltli>Óleo&lt/li&gt
+  &ltli>feijão&lt/li&gt
+&lt/ul>
+</p>
+</strong>
+                </pre>
+            <h2>Links</h2>
+            <h3>links externos</h3>
+            <p>&ltahref = "URL desejada" target = "_blank"rel = "external"&gtTítulo do link&lt/a&gt</p>
+            <h3>links internos</h3>
+            <p>&ltahref = "Página desejada" target = "_self" rel = "next"&gtTítulo do link&lt/a&gt</p>
+            <h3>links de downloads</h3>
+            <p>&ltahref = "Caminho do arquivo" download = "nome do arquivo" type="application/zip">Título do link&lt/a></p>
+            <h2>Imagens:</h2>
+            <p>&ltimg src = "Nome/caminho/link/da-imagem" alt = "texto alternativo"&gt</p>
+            <h3>Imagens responsivas</h3>
+            <pre class="imagens">
+      &ltpicture>
+          &ltsource media="(max-width:730px )" srcset="imagens/foto-p.png"     type="image/png">
+          &ltsource media="(max-width:1030px )" srcset="imagens/foto-m.png"     type="image/png">
+          &ltimg src="imagens/foto-g.png" alt="Imagem dinâmica">    
+      &lt/picture>
+        </pre>  
+        <h2>Áudios:</h2>
+<pre>
+    &ltaudio preload = "metadata"autoplay controls loop>
+        &ltsource src="Caminho do áudio.mpeg" type="audio/mpeg"> 
+        &ltsource src="Caminho do áudio.ogg" type="audio/ogg"> 
+        &ltsource src="Caminho do áudio.wav" type="audio/wav"> 
+        &ltp>Infelizmente seu navegador não consegue reproduzir audio&lt/p>
+    &lt/audio>    
+</pre>              
+        </article>
+    </main>    
+</body>
