@@ -132,13 +132,86 @@
           <p class="unindent">&lt/picture></p>
         </article>
         <article> 
-        <h2>Áudios:</h2>
-        <p class="unindent">&ltaudio preload = "metadata"autoplay controls loop></p>
-            <p>&ltsource src = "Caminho do áudio.mpeg" type = "audio/mpeg"></p> 
-            <p>&ltsource src = "Caminho do áudio.ogg" type = "audio/ogg"></p> 
-            <p>&ltsource src = "Caminho do áudio.wav" type = "audio/wav"></p> 
-            <p>&ltp>Infelizmente seu navegador não consegue reproduzir audio&lt/p></p>
-        <p class="unindent">&lt/audio></p>                 
+        <h2>Vídeos:</h2>
+        <p class="unindent">&ltvideo width="300" controls></p>
+        <p>&ltsource src="midias/MeuVideo.mp4" type="video/mp4"></p>
+            <p>&ltsource src="midias/MeuVideo.mkv" type="video/mp4" ></p> 
+            <p>&ltsource src="midias/Meuvideo.webm" type="video/webm"></p> 
+            <p>&ltp>seu navegador não possui compatibilidade com vídeos&ltp></p> 
+        <p class="unindent">&lt/video></p>                 
+        </article>
+        <article> 
+            <h2>Áudios:</h2>
+            <p class="unindent">&ltaudio preload = "metadata"autoplay controls loop></p>
+                <p>&ltsource src = "Caminho do áudio.mpeg" type = "audio/mpeg"></p> 
+                <p>&ltsource src = "Caminho do áudio.ogg" type = "audio/ogg"></p> 
+                <p>&ltsource src = "Caminho do áudio.wav" type = "audio/wav"></p> 
+                <p>&ltp>Infelizmente seu navegador não consegue reproduzir audio&lt/p></p>
+            <p class="unindent">&lt/audio></p>                 
+        </article>
+        <article>
+            <h1>CSS</h1>
+            <h2>Cores em CSS</h2>
+            <h3>Representação por nomes</h3>
+            <p>&lth2 style="background-color: blue; color: white;">Exemplo de cores&lt/h2></p>
+            <h3>Representação por Códigos Hexadecimais</h3>
+            <p>Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F</p>
+            <p>&lth2 style="background-color: #0000ff ; color: #ffffff;">Exemplo de cores&lt/h2></p>
+            <h3>Representação por Códigos RGB</h3>
+            <p>&lth2 style="background-color: rgb(0,0,255) ; color:rgb(255, 255, 255)">Exemplo de cores&lt/h2></p>
+            <h3>Representação por Códigos HSL (Matiz, saturação, luminosidade)</h3>
+            <p>&lth2 style="background-color: hsl(240,100%,50%); color: hsl(0,0%,100%);">Exemplo de cores&lt/h2></p>
+        </article>
+        <article>
+            <h2>Fontes</h2>
+            <p>body{</p>            
+            <p>font-family: Arial, Helvetica, sans-serif;</p>
+            <p>font-size: 1.5em;</p>
+              <p> } </p>
+                <p><strong>Medidas Absolutas:</strong></p>
+                <p>cm,mm,in,px,pt,pc</p> <br>
+    
+                <p><strong>Medidas relativas:</strong></p>
+                <p>em,ex,rem,vw,vh,%</p>
+                <p>16px geralmente = 1em</p><br>
+
+                <p><strong>Parâmetros:</strong></p>
+                <p>weight = peso, width = largura, height = altura</p>
+                <p>weight 'lighter normal bold bolder'</p><br>
+    
+                <p><strong>shorthand font:</strong></p>
+                <p>- font-style -> font weight -> fonte-size-> font-family</p>
+                <p>font: italic bolder 3em 'work Sans', sans-serif</p><br>    
+            </p>
+        </article>
+        <article> 
+            <h2>Seletores</h2>
+            <h3>Id</h3>
+            <p>O id é utilizado quando o estilo será utilizado apenas em 1 vez.</p>
+            <p class="unindent">&lth1 id = "principal">Criando sites com HTML e CSS/h1></p>
+            <p>#principal{</p>
+                <p>font-size: 3em;</p>
+                <p>text-align: center;</p>
+                <p>background-color: blue; </p> 
+                <p>color: white;</p>  
+            <p>}</p> 
+            <h3>Class</h3>
+            <p>A classe é usada quando o estilos for utilizados várias vezes.</p>
+            <p class="unindent">&lth1 id = "destaque">Criando sites com HTML e CSS/h1></p>
+            <p>.destaque{</p>
+                <p>font-size: 3em;</p>
+                <p>text-align: center;</p>
+                <p>background-color: blue; </p> 
+                <p>color: white;</p>  
+            <p>}</p>                 
+        </article>
+        <article> 
+            <h2>Pseudos classes</h2>
+            <p>Esse estilo será aplicado quando o cursor passar em cima da div:</p>
+            <p class="unindent">&ltdiv:hover{</p>
+                <p>background-color: yellow;</p>
+                <p>cursor: pointer;</p>    
+            <p>}</p>                
         </article>
     </main>    
 </body>
