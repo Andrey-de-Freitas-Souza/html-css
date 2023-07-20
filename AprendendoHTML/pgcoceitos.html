@@ -6,6 +6,7 @@
     <title>Aprendendo HTML</title>
     <link rel="shortcut icon" href="imagens/html.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/stylecodigos.css">
 </head>
 <body>
     <Header>
@@ -18,5 +19,72 @@
         </nav>
     </Header>
     <main>
-        <h1></h1>   
+        <Article>
+            <h2>Imagens</h2>
+            <h3>Onde achar imagens com domínios públicos</h3>
+            <p>Existem vários sites que oferecem imagens
+                de domínio público para serem usados em
+                seus projetos. Mas a dica que te dei antes
+                continua valendo: leia atentamente as
+                instruções para uso dessas imagens.
+                Algumas delas deixam você usar a arte
+                apenas se o artista for creditado em um
+                texto localizado no seu site.
+                Alguns dos sites que eu mais gosto de
+                visitar quando quero usar imagens com
+                domínio público são:
+            </p>    
+                <ul>
+                    <li>UnSplash</li>
+                    <li>Pexels</li>
+                    <li>FreePik</li>
+                    <li>Rawpixel</li>
+                    <li>Pixabay</li>
+                    <li>Libreshot</li>
+                    <li>Wikimedia Commons</li>
+                </ul>
+            <p>
+                Mas muito <strong>CUIDADO!</strong> Alguns desses sites que disponibilizam imagens de domínio
+                público possuem propagandas de serviços de venda de imagens e acabam te
+                confundindo um pouco.     
+            </p>
+            <h3>Formatos de imagens</h3>
+            <p>Existem vários formatos de imagem, cada um com suas características, vantagens e desvantagens. Porém, vamos nos focar aqui nos dois formatos compactados mais usados para a criação de sites: <strong>JPEG</strong> e <strong>PNG.</strong> </p>
+            <p>
+            A grande vantagem do uso de arquivos JPG (em formato JPEG) é gerar arquivos muito pequenos e que ocupam pouco espaço em disco. Isso é muito importante, pois quando colocarmos nosso site no ar, ele tem que ser leve e carregar as imagens muito rapidamente. Só toma cuidado para não exagerar na hora de configurar o nível de compactação. Isso pode fazer com que sua imagem fique horrível e toda borrada   
+            </p>
+            <p>A principal característica do PNG - e que o diferencia do JPEG - é a capacidade de configurar a opacidade de cada pixel (deixá-lo transparente ou com transparência limitada).
+            </p>
+            <p>De forma resumida, na hora de escolher o formato de imagem para o seu site, opte sempre pelo formato JPEG com uma compactação entre 30% e 50%. O formato PNG só deverá ser usado quando precisarmos de transparência na foto.
+            </p>
+            <h3>Tamanhos de Imagens</h3>
+            <p>Quando você está começando a desenvolversites, acaba pensando que para obter o melhor resultado, sua imagem deve ter um tamanho GIGANTE para poder ter a maior qualidade.                 
+            </p>
+            <p>Realmente, uma imagem com resolução grande (1920x1080) tem mais pontos que uma imagem com resolução pequena (500x280). Só que uma imagem 1920x1080 pode gerar um arquivo de até 3MB, enquanto uma 500x280 dificilmente vai passar de 500KB. 
+            </p>
+            <p>A regra de outro nesses casos é: use imagens do tamanho certo! Vai precisar de uma imagem que vai ter 200 pixels de largura? Gere um arq exatamente com esse tamanho! Nada de ficar salvando arquivos gigantes e diminuin tamanho da imagem com códigos.
+            </p>
+            <p>Uma imagem 1920x1080 de 3MB não vai ficar mais leve se você mudar a largura dela no seu CSS. Muito pelo contrário. Seu navegador vai levar um te pra carregar o arquivo do seu servidor e vai exibir a imagem minúscula na tela. 
+            </p>
+            <p>E no que isso te prejudica? Os mecanismos de busca como o Google PENALIZAM sites lentos e pesados, retirando-os da primeira página de bus Quem aqui quer criar um site que não aparece nos resultados do Google?
+            </p>
+        </Article>
+        <article>
+            <h2>Hierarquia de títulos</h2>
+            <h3>Tamanho não é documento</h3>
+            <p>Tem muita gente por aí que acha que &lth1> significa “texto com fonte grande” e &lth6> significa “texto com fonte pequena”. Isso não tem fundamento al Por favor, se alguém te disse isso algum dia, essa pessoa estava completam equivocada.</p>
+            <p>Um &lth1> significa que esse é um assunto principal e é sobre ele que vamos escrever. Já o &lth2> significa que esse é um sub-assunto do &lth1> que  imediatamente acima dele. O &lth3> significa que esse é um sub-assunto do &lth2> que está acima dele. E assim sucessivamente até o &lth6>. 
+            </p>
+            <h3>Só um H1 em uma página: fato ou lenda?</h3>
+            <p>Rola por aí muita gente falando que um documento HTML só deve ter um título H1 e que todos os demais devem ser sub-títulos deles. Isso surgiu com a galera que falava sobre otimização de páginas para mecanismos de busca (SEO - Search Engine Optimization). </p>
+            <p>Hoje em dia, o próprio Google (maior mecanismo de busca do mundo) já diz que isso é uma lenda. Para eles, o que mais importa é dar significado ao seu H1. Ele é um tema principal, e se a sua página tem vários t principais, use vários H1 sem medo. </p>
+        </article> 
+        <article>
+            <h2>Cores</h2>
+            <p>Muita atenção, ao seguir guias de cores e artigos, pois eles não devem ser considerados como uma verdade absoluta para todos os mercados e situações. Constantemente vemos casos de marcas que adotam uma determinada paleta de cores totalmente não recomendada por esses padrões e acabam fazendo muito sucesso. Meu sincero conselho: considere as recomendações, mas não se prenda a elas. Com isso na mente, acompanhe algumas sugestões de aplicação de algumas das cores mais usadas em sites. </p>
+            <picture>
+                <source media="(máx-width: 400px )" srcset="imagens/tabela-cores-pq.jpg">
+                <img src="imagens/tabela-cores.jpg" alt="Tabela de cores">
+            </picture>
+        </article>  
     </main>
