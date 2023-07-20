@@ -213,5 +213,43 @@
                 <p>cursor: pointer;</p>    
             <p>}</p>                
         </article>
+        <article> 
+            <h2>Background</h2>
+            <h3>Códigos básicos backgrounds</h3>
+              <p>background-image: url('imagens/wallpaper001.jpg');</p>
+              <p>background-color: skyblue;</p>
+              <p>background-image: linear-gradient(to bottom, yellow, red);</p> 
+              <p>background-image: url('imagens/pattern003.png')</p>
+            <h3>Configurações de background</h3>
+              <p>background-size: 100px 100px; (auto,contain,cover)</p>
+              <p>background-repeat: repeat-y; (repeat, no-repeat)</p>
+              <p>background-position: left top; (coluna,linha)</p>
+              <p>background-attachment: fixed; (fixed,cover)</p> 
+            <h3>Shorthand</h3>
+            <p><strong>color > image > position > repeat > attachment</strong></p>
+            <p> background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;</p>
+            <p>background-size: cover;</p>
+            <h3>Centralização</h3>
+            <p><strong>O container sempre deve ser relative e o conteúdo deve estar dentro do container.</strong></p>
+            <p class="unindent">#container{</p>
+                <p>background-image: url('imagens/target001.png');</p>
+                <p>background-size: 100% 100%;</p>
+                <p>position: relative;</p>
+                <p>height: 96vh;</p>
+                <p>padding: 10px;</p>
+            <p class="unindent">}</p>
+            <p><strong>O conteúdo sempre deve ser absolute.</strong></p>
+            <p class="unindent">#conteudo{</p>
+                <p>background-image: url('imagens/target001.png');</p>
+                <p>background-size: 100% 100%;</p>
+                <p>position: absolute;</p>
+                <p>height: 200px;</p>
+                <p>width: 400px;</p>
+                <p>left: 50%;</p>
+                <p>top: 50%;</p>
+                <p>transform: translate(-50% ,-50%);</p>
+            <p class="unindent">}</p>
+
+        </article>
     </main>    
 </body>
