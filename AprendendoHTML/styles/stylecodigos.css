@@ -63,12 +63,36 @@ ul>h3{
     font-size: 1.3em;  
     font-weight: 900;  
 }
+
+.container{
+    text-align: center;
+    padding: 10px;
+}
+.botao{
+    display: inline-block;
+    margin: 1vw;
+    width: 175px;
+    background-color: #0e8f8275;
+    border-radius: 10px;
+    border: 1px dashed #0E8F83;
+    padding: 10px;
+    color: #0E8F83;
+    font-family: var(--fonte-destaque);
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px black;
+}
+div>a{
+    text-decoration: none;
+}
+
 strong>p{
     font-size: 1.3em;
 }
 article>p{
     margin-left: 25px;
 }
+
 #cabecalho{
     text-indent: 0px;
 }
@@ -80,7 +104,7 @@ article>p{
     padding: 5px;
     text-align: justify;
 }
-div{
+.listadiv{
     display: inline-block;
     margin-left:45px;
     margin-right: 65px;

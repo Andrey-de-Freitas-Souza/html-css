@@ -20,6 +20,16 @@
     </Header>
     <main>        
         <article>
+
+            <div class="container">
+                <a href="pgcodigos.html">
+                    <h1 class="botao">HTML</h1>
+                </a>
+                <a href="pgCss.html">
+                    <h1 class="botao">CSS</h1>
+                </a>
+            </div>
+
             <h1>HTML</h1>
             <h2>Cabeçalho em HTML:</h2>            
             <p class="unindent"><strong>&lt!DOCTYPE html&gt</strong> : Define o tipo de documento como HTML5.</p>  
@@ -96,7 +106,7 @@
                     <li>Óleo</li>
                     <li>feijão</li>
                 </ul> <br>
-        <div>        
+        <div class="listadiv">        
             <h3>Listas Ordenadas</h3><br>
             <p class="unindentinline">&ltol type="1,A,a,I,i" start="1"></p><br>
                 <p class = "lista">&lth3>Listas Ordenadas&lt/h3&gt</p><br>
@@ -107,7 +117,7 @@
                 <p class = "lista">&ltli>Estudar HTML&lt/li&gt</p><br>
                 <p class = "lista">&ltli>Dormir&lt/li&gt</p><br>
                 <p class="unindentinline">&lt/ol></p>
-        </div><div>                
+        </div><div class="listadiv">                
             <h3>Listas não ordenadas</h3><br>
                 <p class="unindentinline">&ltul type = "disc,circle ou square"></p><br>
                 <p class = "lista">&lth3>Listas não ordenadas&lt/h3&gt</p><br>
@@ -157,118 +167,48 @@
                 <p>&ltp>Infelizmente seu navegador não consegue reproduzir audio&lt/p></p>
             <p class="unindent">&lt/audio></p>                 
         </article>
-        <article>
-            <h1>CSS</h1>
-            <h2>Cores em CSS</h2>
-            <h3>Representação por nomes</h3>
-            <p>&lth2 style="background-color: blue; color: white;">Exemplo de cores&lt/h2></p>
-            <h3>Representação por Códigos Hexadecimais</h3>
-            <p>Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F</p>
-            <p>&lth2 style="background-color: #0000ff ; color: #ffffff;">Exemplo de cores&lt/h2></p>
-            <h3>Representação por Códigos RGB</h3>
-            <p>&lth2 style="background-color: rgb(0,0,255) ; color:rgb(255, 255, 255)">Exemplo de cores&lt/h2></p>
-            <h3>Representação por Códigos HSL (Matiz, saturação, luminosidade)</h3>
-            <p>&lth2 style="background-color: hsl(240,100%,50%); color: hsl(0,0%,100%);">Exemplo de cores&lt/h2></p>
-        </article>
-        <article>
-            <h2>Fontes</h2>
-            <p>body{</p>            
-            <p>font-family: Arial, Helvetica, sans-serif;</p>
-            <p>font-size: 1.5em;</p>
-              <p> } </p>
-                <p><strong>Medidas Absolutas:</strong></p>
-                <p>cm,mm,in,px,pt,pc</p> <br>
-    
-                <p><strong>Medidas relativas:</strong></p>
-                <p>em,ex,rem,vw,vh,%</p>
-                <p>16px geralmente = 1em</p><br>
-
-                <p><strong>Parâmetros:</strong></p>
-                <p>weight = peso, width = largura, height = altura</p>
-                <p>weight 'lighter normal bold bolder'</p><br>
-    
-                <p><strong>shorthand font:</strong></p>
-                <p>- font-style -> font weight -> fonte-size-> font-family</p>
-                <p>font: italic bolder 3em 'work Sans', sans-serif</p><br>    
-            </p>
+        <article> 
+            <h2>Tabelas:</h2>
+                <p class="unindent">&lttable></p>
+                    <p class="unindent">&lttr></p>
+                        <p>&lttd>A1&lt/td></p>
+                        <p>&lttd>B1&lt/td></p>
+                        <p>&lttd>C1&lt/td></p>
+                    <p class="unindent">&lt/tr></p>
+                    <p class="unindent">&lttr></p>
+                        <p>&lttd>A2&lt/td></p>
+                        <p>&lttd>B2&lt/td></p>
+                        <p>&lttd>C2&lt/td></p>
+                    <p class="unindent">&lt/tr></p>
+                    <p class="unindent">&lttr></p>
+                        <p>&lttd>A3&lt/td></p>
+                        <p>&lttd>B3&lt/td></p>
+                        <p>&lttd>C3&lt/td></p>
+                    <p class="unindent">&lt/tr></p>
+                    <p class="unindent">&lttr></p>
+                        <p>&lttd>A4&lt/td></p>
+                        <p>&lttd>B4&lt/td></p>
+                        <p>&lttd>C4&lt/td></p>
+                    <p class="unindent">&lt/tr></p>
+                <p class="unindent">&lt/table> </p>                
         </article>
         <article> 
-            <h2>Seletores</h2>
-            <h3>Id</h3>
-            <p>O id é utilizado quando o estilo será utilizado apenas em 1 vez.</p>
-            <p class="unindent">&lth1 id = "principal">Criando sites com HTML e CSS/h1></p>
-            <p>#principal{</p>
-                <p>font-size: 3em;</p>
-                <p>text-align: center;</p>
-                <p>background-color: blue; </p> 
-                <p>color: white;</p>  
-            <p>}</p> 
-            <h3>Class</h3>
-            <p>A classe é usada quando o estilos for utilizados várias vezes.</p>
-            <p class="unindent">&lth1 id = "destaque">Criando sites com HTML e CSS/h1></p>
-            <p>.destaque{</p>
-                <p>font-size: 3em;</p>
-                <p>text-align: center;</p>
-                <p>background-color: blue; </p> 
-                <p>color: white;</p>  
-            <p>}</p>                 
+            <h2>Iframes</h2>
+            <h3>Código base</h3>
+            <p>&ltiframe src="https://www.youtube.com/" frameborder="0">&lt/iframe></p>
+            <p>obs: Os iframes podem ter nomes para dar referencia a links.</p>
+            <h3>srcdoc</h3>
+            <p>permite usar html para a "capa" do iframe.</p>
+            <p>srcdoc="&lth1> Escolha uma das opções acima"&lt/p>
+            <h3>sandbox</h3>
+            <p>protege para que os sites não captem dados.</p>
+            <p > sandbox="allow-same-origin allow-forms allow-scripts" permite que apenas páginas so seu site permita cadastro de dados</p>
+            <h3>referrerpolicyp</h3>
+            <p> bloqueia o outro site de pegar informações</p>
+            <p>referrerpolicy="no-referrer"</p>
+             
         </article>
-        <article> 
-            <h2>Pseudos classes</h2>
-            <p>Esse estilo será aplicado quando o cursor passar em cima da div:</p>
-            <p class="unindent">&ltdiv:hover{</p>
-                <p>background-color: yellow;</p>
-                <p>cursor: pointer;</p>    
-            <p>}</p>                
-        </article>
-        <article> 
-            <h2>Background</h2>
-            <h3>Códigos básicos backgrounds</h3>
-              <p>background-image: url('imagens/wallpaper001.jpg');</p>
-              <p>background-color: skyblue;</p>
-              <p>background-image: linear-gradient(to bottom, yellow, red);</p> 
-              <p>background-image: url('imagens/pattern003.png')</p>
-            <h3>Configurações de background</h3>
-              <p>background-size: 100px 100px; (auto,contain,cover)</p>
-              <p>background-repeat: repeat-y; (repeat, no-repeat)</p>
-              <p>background-position: left top; (coluna,linha)</p>
-              <p>background-attachment: fixed; (fixed,cover)</p> 
-            <h3>Shorthand</h3>
-            <p><strong>color > image > position > repeat > attachment</strong></p>
-            <p> background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;</p>
-            <p>background-size: cover;</p>
-            <h3>Centralização</h3>
-            <p><strong>O container sempre deve ser relative e o conteúdo deve estar dentro do container.</strong></p>
-            <p class="unindent">#container{</p>
-                <p>background-image: url('imagens/target001.png');</p>
-                <p>background-size: 100% 100%;</p>
-                <p>position: relative;</p>
-                <p>height: 96vh;</p>
-                <p>padding: 10px;</p>
-            <p class="unindent">}</p>
-            <p><strong>O conteúdo sempre deve ser absolute.</strong></p>
-            <p class="unindent">#conteudo{</p>
-                <p>background-image: url('imagens/target001.png');</p>
-                <p>background-size: 100% 100%;</p>
-                <p>position: absolute;</p>
-                <p>height: 200px;</p>
-                <p>width: 400px;</p>
-                <p>left: 50%;</p>
-                <p>top: 50%;</p>
-                <p>transform: translate(-50% ,-50%);</p>
-            <p class="unindent">}</p>
-        </article>
-        <article>
-            <h2>Caixas</h2>
-            <h3>Shorthands</h3>
-            <p>border: 10px solid red;</p>
-            <p>outline: 30px solid blue;</p>
-            <p>padding: 10px 15px 20px 25px;</p>
-            <p>margin: 0px 10px 20px 30px;</p>
-            <h3>Personalizações</h3>
-            <p>box-shadow: 3px 5px 4px black;</p>
-            <p>border-radius:10px</p>
-        </article>
+        
         
     </main>    
 </body>

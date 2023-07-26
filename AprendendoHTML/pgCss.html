@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo HTML</title>
+    <link rel="shortcut icon" href="imagens/html.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/stylecodigos.css">
+</head>
+<body>
+    <Header>
+        <h1>Aprendendo HTML <img src="imagens/html.ico" alt="Imagem html"></h1>
+        <nav>
+            <a href="index.html">Menu</a>
+            <a href="pgcoceitos.html">Conceitos</a>
+            <a href="pgcodigos.html">Códigos</a>
+            <a href="pgprojetos.html">Projetos</a>
+        </nav>
+    </Header>
+    <main>        
+        <article>
+
+            <div class="container">
+                <a href="pgcodigos.html">
+                    <h1 class="botao">HTML</h1>
+                </a>
+                <a href="pgCss.html">
+                    <h1 class="botao">CSS</h1>
+                </a>
+            </div>
+        </article>
+        <article>
+            <h1>CSS</h1>
+            <h2>Cores em CSS</h2>
+            <h3>Representação por nomes</h3>
+            <p>&lth2 style="background-color: blue; color: white;">Exemplo de cores&lt/h2></p>
+            <h3>Representação por Códigos Hexadecimais</h3>
+            <p>Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F</p>
+            <p>&lth2 style="background-color: #0000ff ; color: #ffffff;">Exemplo de cores&lt/h2></p>
+            <h3>Representação por Códigos RGB</h3>
+            <p>&lth2 style="background-color: rgb(0,0,255) ; color:rgb(255, 255, 255)">Exemplo de cores&lt/h2></p>
+            <h3>Representação por Códigos HSL (Matiz, saturação, luminosidade)</h3>
+            <p>&lth2 style="background-color: hsl(240,100%,50%); color: hsl(0,0%,100%);">Exemplo de cores&lt/h2></p>
+        </article>
+        <article>
+            <h2>Fontes</h2>
+            <p>body{</p>            
+            <p>font-family: Arial, Helvetica, sans-serif;</p>
+            <p>font-size: 1.5em;</p>
+              <p> } </p>
+                <p><strong>Medidas Absolutas:</strong></p>
+                <p>cm,mm,in,px,pt,pc</p> <br>
+    
+                <p><strong>Medidas relativas:</strong></p>
+                <p>em,ex,rem,vw,vh,%</p>
+                <p>16px geralmente = 1em</p><br>
+
+                <p><strong>Parâmetros:</strong></p>
+                <p>weight = peso, width = largura, height = altura</p>
+                <p>weight 'lighter normal bold bolder'</p><br>
+    
+                <p><strong>shorthand font:</strong></p>
+                <p>- font-style -> font weight -> fonte-size-> font-family</p>
+                <p>font: italic bolder 3em 'work Sans', sans-serif</p><br>    
+            </p>
+        </article>
+        <article> 
+            <h2>Seletores</h2>
+            <h3>Id</h3>
+            <p>O id é utilizado quando o estilo será utilizado apenas em 1 vez.</p>
+            <p class="unindent">&lth1 id = "principal">Criando sites com HTML e CSS/h1></p>
+            <p>#principal{</p>
+                <p>font-size: 3em;</p>
+                <p>text-align: center;</p>
+                <p>background-color: blue; </p> 
+                <p>color: white;</p>  
+            <p>}</p> 
+            <h3>Class</h3>
+            <p>A classe é usada quando o estilos for utilizados várias vezes.</p>
+            <p class="unindent">&lth1 id = "destaque">Criando sites com HTML e CSS/h1></p>
+            <p>.destaque{</p>
+                <p>font-size: 3em;</p>
+                <p>text-align: center;</p>
+                <p>background-color: blue; </p> 
+                <p>color: white;</p>  
+            <p>}</p>                 
+        </article>
+        <article> 
+            <h2>Pseudos classes</h2>
+            <p>Esse estilo será aplicado quando o cursor passar em cima da div:</p>
+            <p class="unindent">&ltdiv:hover{</p>
+                <p>background-color: yellow;</p>
+                <p>cursor: pointer;</p>    
+            <p>}</p>                
+        </article>
+        <article> 
+            <h2>Background</h2>
+            <h3>Códigos básicos backgrounds</h3>
+              <p>background-image: url('imagens/wallpaper001.jpg');</p>
+              <p>background-color: skyblue;</p>
+              <p>background-image: linear-gradient(to bottom, yellow, red);</p> 
+              <p>background-image: url('imagens/pattern003.png')</p>
+            <h3>Configurações de background</h3>
+              <p>background-size: 100px 100px; (auto,contain,cover)</p>
+              <p>background-repeat: repeat-y; (repeat, no-repeat)</p>
+              <p>background-position: left top; (coluna,linha)</p>
+              <p>background-attachment: fixed; (fixed,cover)</p> 
+            <h3>Shorthand</h3>
+            <p><strong>color > image > position > repeat > attachment</strong></p>
+            <p> background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;</p>
+            <p>background-size: cover;</p>
+            <h3>Centralização</h3>
+            <p><strong>O container sempre deve ser relative e o conteúdo deve estar dentro do container.</strong></p>
+            <p class="unindent">#container{</p>
+                <p>background-image: url('imagens/target001.png');</p>
+                <p>background-size: 100% 100%;</p>
+                <p>position: relative;</p>
+                <p>height: 96vh;</p>
+                <p>padding: 10px;</p>
+            <p class="unindent">}</p>
+            <p><strong>O conteúdo sempre deve ser absolute.</strong></p>
+            <p class="unindent">#conteudo{</p>
+                <p>background-image: url('imagens/target001.png');</p>
+                <p>background-size: 100% 100%;</p>
+                <p>position: absolute;</p>
+                <p>height: 200px;</p>
+                <p>width: 400px;</p>
+                <p>left: 50%;</p>
+                <p>top: 50%;</p>
+                <p>transform: translate(-50% ,-50%);</p>
+            <p class="unindent">}</p>
+        </article>
+        <article>
+            <h2>Caixas</h2>
+            <h3>Shorthands</h3>
+            <p>border: 10px solid red;</p>
+            <p>outline: 30px solid blue;</p>
+            <p>padding: 10px 15px 20px 25px;</p>
+            <p>margin: 0px 10px 20px 30px;</p>
+            <h3>Personalizações</h3>
+            <p>box-shadow: 3px 5px 4px black;</p>
+            <p>border-radius:10px</p>
+        </article>
+        <article>
+            <h2><p>Tabelas</p></h2>
+            <p class="unindent">table{</p>
+                <p>border-collapse: collapse; # deixa as bordas do jeito certo</p>
+            <p class="unindent">}</p>
+            <p class="unindent">th,td{</p>
+                <p>border: 1px solid black; # cria a borda certa</p>
+            <p class="unindent">}</p>
+            <p class="unindent">tr:nth-child(even){</p>
+                <p>background-color: lightgray; # efeit0 zebrado</p>
+            <p class="unindent">}</p>
+            <p class="unindent">div#container{</p>
+                <p>overflow-x: auto; # cria scrolls para tornar responsiva</p>
+    
+            <p class="unindent">}</p>
+        </article>
+        
+    </main>
+</body>
+</html>
