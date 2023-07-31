@@ -1,0 +1,45 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../Imagens/fundoprincipal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+iframe{
+    position: relative;
+    background-color: white;
+    top: 63px;
+    left: 28px;
+    width: 273px;
+    height: 590px;
+    border-radius: 35px;
+}
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 321px;
+    height: 650px;
+
+}
+.iphone{
+    position: relative;
+    margin-top: -550px;
+    pointer-events: none;    
+}
+
+section#menu img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    margin-top: 30px;
+}
+section#menu{
+    text-align: center;
+}

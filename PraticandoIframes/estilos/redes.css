@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body{
+    height: 626vh;
+    width: 321;
+}
+img{
+    position: relative;
+    top: -27px;
+    left: -35px;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
