@@ -54,27 +54,22 @@
             <h2>PREÇO: R$??,?? CADA</h2>
         </div>
         <hr>
-        <div class="carousel-container">
-            <input type="radio" name="slide" id="slide1" checked>
-            <input type="radio" name="slide" id="slide2">
-            <input type="radio" name="slide" id="slide3">
-            <!-- Adicione mais inputs conforme necessário -->
-        
-            <div class="carousel">
-                <img src="imagens\IMG-20240120-WA0001.jpg" alt="Imagem 1">
-                <img src="imagens\IMG-20240120-WA0002.jpg" alt="Imagem 2">
-                <img src="imagens\IMG-20240120-WA0003.jpg" alt="Imagem 3">
-                <!---<img src="imagens\IMG-20240120-WA0001.jpg" alt="Imagem 4">
-                <img src="imagens\IMG-20240120-WA0001.jpg" alt="Imagem 5">
-                <img src="imagens\IMG-20240120-WA0001.jpg" alt="Imagem 6">
-                <img src="imagens\IMG-20240120-WA0001.jpg" alt="Imagem 7">
-                 Adicione mais imagens conforme necessário -->
+          <div class="carousel">
+            <input type="radio" id="slide1" name="slides" checked>
+            <input type="radio" id="slide2" name="slides">
+            <input type="radio" id="slide3" name="slides">
+            <!-- Adicione mais radios conforme necessário -->
+          
+            <div class="images">
+              <img class="image" src="imagens\IMG-20240120-WA0001.jpg" alt="Image 1">
+              <img class="image" src="imagens\IMG-20240120-WA0002.jpg" alt="Image 2">
+              <img class="image" src="imagens\IMG-20240120-WA0003.jpg" alt="Image 3">
+              <!-- Adicione mais imagens conforme necessário -->
             </div>
-        
-            <label class="carousel-button prev" for="slide1">&#10094;</label>
-            <label class="carousel-button next" for="slide2">&#10095;</label>
-            <!-- Adicione mais labels conforme necessário -->
-        </div>
+          
+            <button class="carousel-btn prev-btn" onclick="document.getElementById('slide1').checked = true">❮</button>
+            <button class="carousel-btn next-btn" onclick="document.getElementById('slide2').checked = true">❯</button>
+          </div>
          
         <footer>
             <p>Site desenvolvido por Andrey de Freitas</p>

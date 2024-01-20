@@ -181,52 +181,45 @@ div >p{
     width: 400px;
 }
 /* CARROSSEL */
-.carousel-container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
 .carousel {
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .images {
     display: flex;
-    width: 300%; /* 100% * número de slides */
     transition: transform 0.5s ease-in-out;
-}
-.carousel img {
-    width: 200px;
-    object-fit: cover;
-}
-.carousel input {
-    display: none;
-}
-.carousel-button {
-    cursor: pointer;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .carousel-btn {
     position: absolute;
     top: 50%;
-    width: 5%;
+    transform: translateY(-50%);
+    cursor: pointer;
     font-size: 24px;
-    color: #555;
-    background-color: transparent;
+    background: none;
     border: none;
     outline: none;
-    transition: color 0.3s ease-in-out;
-}
-.carousel-button:hover {
-    color: #333;
-}
-.prev {
-    left: 0;
-}
-.next {
-    right: 0;
-}
-#slide1:checked ~ .carousel {
-    transform: translateX(0);
-}
-#slide2:checked ~ .carousel {
-    transform: translateX(-100%);
-}
-#slide3:checked ~ .carousel {
-    transform: translateX(-200%);
-}
+  }
 
+  .prev-btn {
+    left: 10px;
+  }
+
+  .next-btn {
+    right: 10px;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  #slide1:checked ~ .images { transform: translateX(0%); }
+  #slide2:checked ~ .images { transform: translateX(-100%); }
+  #slide3:checked ~ .images { transform: translateX(-200%); }
   
