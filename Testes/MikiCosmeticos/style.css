@@ -178,48 +178,8 @@ div >p{
     text-indent: -10px;    
 }
 .oferta{
-    width: 350px;
+    width: 100px;
 }
 /* CARROSSEL */
-.carousel {
-    width: 300px;
-    overflow: hidden;
-    position: relative;
-  }
 
-  .images {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .image {
-    width: 100%;
-  }
-
-  .carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    font-size: 24px;
-    background: none;
-    border: none;
-    outline: none;
-  }
-
-  .prev-btn {
-    left: 10px;
-  }
-
-  .next-btn {
-    right: 10px;
-  }
-
-  input[type="radio"] {
-    display: none;
-  }
-
-  #slide1:checked ~ .images { transform: translateX(0%); }
-  #slide2:checked ~ .images { transform: translateX(-100%); }
-  #slide3:checked ~ .images { transform: translateX(-200%); }
   
