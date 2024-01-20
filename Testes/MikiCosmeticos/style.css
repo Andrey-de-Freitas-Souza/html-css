@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
-    --cor0: #ffffff;
-    --cor1: #000000af;
+    --cor0: #1100ffa1;
+    --cor1: #000000d8;
     --cor2: #f8e8578f;
     --cor3: #0f2218;
     --cor4: #efe8ae33;
@@ -20,12 +20,17 @@
 }
 body{
     background-color: #ffa69e1a;
+    
 }
-header{
-    background-color: var(--cor0);
+header{    
+    background-color: rgba(255, 255, 255, 0.9);
+    background-image: url("imagens/fundoPapel.jpeg");
+    background-size:  auto;
+   
 }
+
 a> h1{
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 1px 1px 0px var(--cor1);
     padding: 30px 0px 15px 0px;
     color: var(--cor1);
     font-size: 3em;
@@ -33,6 +38,7 @@ a> h1{
     font-family: var(--fonte-destaque);
 } 
 header>p{
+    color: var(--cor1);
     padding-bottom: 20px;
     text-align: center;
     font-size: 1.5em;
