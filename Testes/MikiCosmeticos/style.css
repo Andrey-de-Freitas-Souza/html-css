@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+:root{
+    --cor0: #ffffff;
+    --cor1: #000000af;
+    --cor2: #f8e8578f;
+    --cor3: #0f2218;
+    --cor4: #efe8ae33;
+
+    --fonte-destaque: "Playfair Display SC", serif;
+    --fonte-padrao: 'Amatic SC', cursive;
+    --fonte-preco: Arial, Helvetica, sans-serif;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ffa69e1a;
+}
+header{
+    background-color: var(--cor0);
+}
+a> h1{
+    text-shadow: 1px 1px 0px black;
+    padding: 30px 0px 15px 0px;
+    color: var(--cor1);
+    font-size: 3em;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+} 
+header>p{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);    
+}
+nav{
+    background-color: var(--cor0);
+    padding: 5px;
+}
+nav >a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    padding:0px 5px 5px 0px;
+    color: var(--cor1);
+    font-size: 1em;
+
+}
+picture>img{
+    max-height: 222px;
+    margin: 20px 0px;
+}
+a>img{
+    width: 15px;
+    height: 15px;
+}
+#home{
+    padding-right: 4px;
+    width: 15px;
+    height: 15px;
+}
+picture{
+    display: inline-block;
+}
+picture>img{
+    min-width: 100px;
+    max-width: 450px;
+    display: inline-block;
+}
+source>picture{
+    max-width: 100px;
+}
+.whats{
+    width: 18px;
+    height: 18px;    
+}
+nav> a:hover{
+    text-decoration: underline;
+}
+aside{
+    text-align: center;
+    border:dashed #48304D 1px;
+    font-size: 0.7em;
+    color: #48304D;
+    font-family: var(--fonte-destaque);
+    background-color: var(--cor0);
+    display: inline-block;
+    max-width: 700px;
+    min-width: 90px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px; 
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+.fundo {
+    background-image: url('imagens/papel.jpg');
+  }
+main>p{  
+    background-color: white;
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+main>h1{
+    display: inline-block;            
+    margin-right: 190px;
+    font-family: var(--fonte-destaque);
+}
+div{
+    text-align: center;
+}
+div >h1{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    color: var(--cor1);
+    background-image: linear-gradient(to top,#ffa69e8a,#fdddda28);
+    padding: 5px;
+    font-size: 2em;
+    margin-top: 20px;
+    
+}
+div >h2{
+    font-size: 0.7em;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor2);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: var(--fonte-preco);
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+div >p{
+    text-align: center;
+    text-indent: -180px;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    
+}
+.cor{
+    text-align: center;
+    display: inline-block;
+    text-indent: 0px;
+    
+}
+.variacao{
+    text-indent: -10px;    
+}
+.oferta{
+    width: 200px;
+}
