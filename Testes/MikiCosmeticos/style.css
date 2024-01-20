@@ -178,5 +178,6 @@ div >p{
     text-indent: -10px;    
 }
 .oferta{
+    min-width: 300px;
     max-width: 500px;
 }
