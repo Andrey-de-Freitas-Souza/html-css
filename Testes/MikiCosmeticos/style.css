@@ -45,6 +45,10 @@ header>p{
     font-weight: bold;
     font-family: var(--fonte-padrao);    
 }
+h3{
+    font-family: var(--fonte-padrao);
+    font-size: 1.5em;
+}
 nav{
 
     padding: 5px;
@@ -117,7 +121,6 @@ aside{
     background-image: url("imagens/couro.jpeg");
     background-size: cover;
 }
-
 a{
     text-decoration: none;
 }
@@ -134,7 +137,10 @@ hr{
     height: 1px;
     background-color: rgba(0, 0, 0, 0.144);
 }
-
+.arraste{
+    display: block;
+    text-align: center;
+}
 main>p{  
     padding: 15px;
     font-size: 1.2em;
