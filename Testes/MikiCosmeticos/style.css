@@ -196,4 +196,19 @@ div >p{
     background-size: cover;
 }
 /* CARROSSEL */
+.container {
+    width: 100%;
+    overflow-x: auto; /* Adiciona a barra de rolagem horizontal */
+  }
 
+  .content {
+    width: 1200px; /* Largura desejada do conteúdo */
+    white-space: nowrap; /* Evita quebrar o conteúdo em várias linhas */
+  }
+
+
+
+
+  .content {
+    padding: 20px;
+  }
