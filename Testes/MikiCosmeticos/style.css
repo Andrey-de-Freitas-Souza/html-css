@@ -204,8 +204,7 @@ div >p{
   }
 
   .content {
-    width: 100%; /* Largura desejada do conteúdo */
+    width:100%; /* Largura desejada do conteúdo */
     white-space: nowrap; /* Evita quebrar o conteúdo em várias linhas */
-    margin-top: -30%;
   }
 
