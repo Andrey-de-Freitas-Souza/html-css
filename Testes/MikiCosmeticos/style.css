@@ -196,7 +196,7 @@ div >p{
     background-size: cover;
 }
 /* CARROSSEL */
-.container {
+.containe {
     width: 100%;
     overflow-x: auto; /* Adiciona a barra de rolagem horizontal */
   }
