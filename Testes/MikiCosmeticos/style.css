@@ -113,6 +113,11 @@ aside{
     background-image: url("imagens/onda.png");
     background-size: cover;
 }
+.btnBolsas{
+    background-image: url("imagens/couro.jpeg");
+    background-size: cover;
+}
+
 a{
     text-decoration: none;
 }
