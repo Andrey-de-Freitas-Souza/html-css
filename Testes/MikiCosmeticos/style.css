@@ -197,16 +197,15 @@ div >p{
 }
 /* CARROSSEL */
 .containe {
-    width: 100%;
+    display: inline-block;
+    text-align: center;
+    width: 70%;
     overflow-x: auto; /* Adiciona a barra de rolagem horizontal */
   }
 
   .content {
-    width: 100%; /* Largura desejada do conteúdo */
+    width: 70%; /* Largura desejada do conteúdo */
     white-space: nowrap; /* Evita quebrar o conteúdo em várias linhas */
+    margin-top: -30%;
   }
 
-
-  .content {
-    padding: 20px;
-  }
