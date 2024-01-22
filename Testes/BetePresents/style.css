@@ -52,9 +52,9 @@ h3{
     font-size: 1.5em;
 }
 nav{
-    width: 100%;
     background-color: rgb(11, 212, 212);
     padding: 5px;
+    box-sizing: border-box;
 }
 nav >a {
     text-decoration: none;
