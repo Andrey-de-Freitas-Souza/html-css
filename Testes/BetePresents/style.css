@@ -126,7 +126,7 @@ aside{
     background-size: cover;
     background-position: center;
     background-color: rgb(157, 255, 255);
-    width: 30%;
+    width: 60%;
     border-radius: 30px;
     
 }
@@ -232,7 +232,7 @@ div >p{
     text-align: center;
     margin-top: 5%;
     margin-bottom: -4%;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: var(--fonte-preco);
 }
 /* CARROSSEL */
