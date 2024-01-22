@@ -95,6 +95,9 @@ source>picture{
     width: 18px;
     height: 18px;    
 }
+.btnpedido{
+    margin-left: -10%;
+}
 nav> a:hover{
     text-decoration: underline;
 }
@@ -188,7 +191,7 @@ div >h1{
     margin-top: 20px;
     
 }
-div >h2{
+.preco{
     width: 65%;
     color: white;
     font-size: 3.0em;
@@ -203,6 +206,23 @@ div >h2{
     display: inline-block;
        
 }
+.preco2{
+    padding: 2% 1%;
+    border: double 5px yellow;
+    display: inline-block;
+    text-align: center;
+    width: 65%;
+    background-color: red;
+    color: white;
+    
+}
+.preco2>h2{
+    font-size: 3.0em;
+}
+.preco2>p{
+    font-family: var(--fonte-preco);
+}
+
 .bloco{
     width: 100%;
 }
