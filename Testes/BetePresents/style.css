@@ -227,7 +227,7 @@ div >p{
 
 .oferta ,.produto{
     width: 100%;
-    margin: 4% 2% ;
+    margin-top: 2%;
 }
 .promocao{
     background-image: url("imagens/fundopromo.jpg");
