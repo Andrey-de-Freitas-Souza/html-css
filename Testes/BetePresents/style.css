@@ -27,6 +27,7 @@ body{
 header {
     width: 100%;
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("imagens/header.png");
+    background-blend-mode: overlay;
     background-size: cover;
 }
 a> h1{
@@ -53,9 +54,9 @@ h3{
     font-size: 1.5em;
 }
 nav{
+    width: 100%;
     background-color: rgb(11, 212, 212);
     padding: 5px;
-    box-sizing: border-box;
 }
 nav >a {
     text-decoration: none;
@@ -230,7 +231,6 @@ div >p{
 .oferta ,.produto{
     width: 100%;
     margin-top: 2%;
-    margin-bottom: 5%;
 }
 .promocao{
     background-image: url("imagens/fundopromo.jpg");
@@ -246,12 +246,11 @@ div >p{
 }
 /* CARROSSEL */
 .containe {
-    
     display: inline-block;
     text-align: center;
+    width: 100%;
     overflow-x: auto; /* Adiciona a barra de rolagem horizontal */
-    box-sizing: border-box; /* Inclui padding na largura */
-}
+  }
 
   .content {
     width:100%; /* Largura desejada do conteúdo */
