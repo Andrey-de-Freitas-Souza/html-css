@@ -150,15 +150,15 @@ div >h2{
     font-size: 0.7em;
     text-align: center;
     padding: 10px;
-    background-color: var(--cor2);
+    background-color: red;
+    border: double 1px yellow;
     margin-bottom: 20px;
     margin-top: 20px;
     font-family: var(--fonte-preco);
     font-size: 1.2em;
     font-weight: bold;
     display: inline-block;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 div >p{
     text-align: center;
@@ -177,3 +177,4 @@ div >p{
 .variacao{
     text-indent: -10px;    
 }
+

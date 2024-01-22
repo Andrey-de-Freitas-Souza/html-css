@@ -146,7 +146,7 @@ main{
     margin: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: rgba(127, 255, 212, 0.144);
+    background-color: white;
 }
 hr{
     border: none;
@@ -186,18 +186,23 @@ div >h1{
     
 }
 div >h2{
-    font-size: 0.7em;
+    width: 35%;
+    
+    color: white;
+    font-size: 4.0em;
     text-align: center;
-    padding: 10px;
-    background-color: var(--cor2);
+    padding: 3% 1% ;
+    background-color: red;
+    border: double yellow ;
     margin-bottom: 20px;
     margin-top: 20px;
     font-family: var(--fonte-preco);
-    font-size: 1.2em;
     font-weight: bold;
     display: inline-block;
-    border-radius: 10px;
-    
+       
+}
+.bloco{
+    width: 100%;
 }
 div >p{
     text-align: center;
@@ -234,7 +239,7 @@ div >p{
     text-align: center;
     margin-top: 5%;
     margin-bottom: -4%;
-    font-size: 0.7em;
+    font-size: 0.6em;
     font-family: var(--fonte-preco);
 }
 /* CARROSSEL */
