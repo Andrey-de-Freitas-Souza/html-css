@@ -35,8 +35,9 @@ a> h1{
     font-size: 3em;
     text-align: center;
     font-family: var(--fonte-destaque);
-    font-weight: bold;
+    font-weight: normal;
 } 
+
 header>p{
     color: var(--cor1);
     padding-bottom: 10px;
