@@ -225,4 +225,7 @@ div >p{
     width:100%; /* Largura desejada do conteúdo */
     white-space: nowrap; /* Evita quebrar o conteúdo em várias linhas */
   }
+  footer{
+    text-align: center;
+  }
 
