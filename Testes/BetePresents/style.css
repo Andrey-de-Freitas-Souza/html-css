@@ -46,6 +46,7 @@ header>p{
     font-family: var(--fonte-padrao);    
 }
 h3{
+    text-indent: 5%;
     font-family: var(--fonte-padrao);
     font-size: 1.5em;
 }
@@ -99,7 +100,6 @@ aside{
     font-size: 0.7em;
     color: #000000;
     font-family: var(--fonte-destaque);
-    background-image: url(imagens/header.png);
     display: inline-block;
     max-width: 700px;
     min-width: 90px;
@@ -120,6 +120,20 @@ aside{
 .btnBolsas{
     background-image: url("imagens/couro.jpeg");
     background-size: cover;
+}
+.btnencomendar{
+    background-image: url("imagens/confetes.png");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(157, 255, 255);
+    width: 30%;
+    border-radius: 30px;
+    
+}
+.btnencomendar>h1{
+    font-size: 2.8em;
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
 }
 a{
     text-decoration: none;
@@ -212,6 +226,14 @@ div >p{
 .promocao{
     background-image: url("imagens/fundopromo.jpg");
     background-size: cover;
+}
+.anuncio{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -4%;
+    font-size: 1.2em;
+    font-family: var(--fonte-preco);
 }
 /* CARROSSEL */
 .containe {
