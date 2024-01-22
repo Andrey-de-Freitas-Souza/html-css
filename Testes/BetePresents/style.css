@@ -229,6 +229,7 @@ div >p{
 .oferta ,.produto{
     width: 100%;
     margin-top: 2%;
+    margin-bottom: 5%;
 }
 .promocao{
     background-image: url("imagens/fundopromo.jpg");
@@ -244,11 +245,12 @@ div >p{
 }
 /* CARROSSEL */
 .containe {
+    
     display: inline-block;
     text-align: center;
-    width: 100%;
     overflow-x: auto; /* Adiciona a barra de rolagem horizontal */
-  }
+    box-sizing: border-box; /* Inclui padding na largura */
+}
 
   .content {
     width:100%; /* Largura desejada do conteúdo */
