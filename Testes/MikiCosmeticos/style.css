@@ -50,7 +50,7 @@ h3{
     font-size: 1.5em;
 }
 nav{
-
+    background-color: rgb(11, 212, 212);
     padding: 5px;
 }
 nav >a {
@@ -58,7 +58,7 @@ nav >a {
     font-weight: bold;
     margin-left: 10px;
     padding:0px 5px 5px 0px;
-    color: var(--cor1);
+
     font-size: 1em;
 
 }
