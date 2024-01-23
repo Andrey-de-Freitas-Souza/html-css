@@ -114,6 +114,10 @@ aside{
     padding: 5px;
     border-radius: 5px;
 }
+.btnVariedades{
+    background-image: url("imagens/variedade.jpg");
+    background-size: cover;
+}
 .btnpapelaria{
     background-image: url("imagens/fundoPapel.jpeg");
     background-size: cover;
@@ -283,7 +287,9 @@ div >p{
     margin-left: -8%;
 }
 
-
+.ursinho{
+    width: 90%;
+}
 .categoria{
     text-align: center;
     display: block;
