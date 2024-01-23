@@ -110,10 +110,8 @@ aside{
     display: inline-block;
     max-width: 700px;
     min-width: 90px;
+    margin: 3%;
     padding: 5px;
-    margin-left: 50px;
-    margin-bottom: 10px;
-    margin-top: 10px;
     border-radius: 5px;
 }
 .btnpapelaria{
@@ -142,9 +140,7 @@ aside{
     font-family: var(--fonte-destaque);
     font-weight: bold;
 }
-.centralizado{
-    margin-right: 4.5%;
-}
+
 a{
     text-decoration: none;
 }
