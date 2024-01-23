@@ -221,6 +221,9 @@ div >h1{
     font-size: 3.0em;
 }
 .preco2>p{
+    display: inline;
+    text-align: center;
+    font-size: 1em;
     font-family: var(--fonte-preco);
 }
 
