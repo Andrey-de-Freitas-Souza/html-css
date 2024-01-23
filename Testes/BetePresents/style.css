@@ -279,3 +279,12 @@ div >p{
     width: 100%;
   }
 
+.categoria{
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    background-color: rgba(0, 255, 255, 0.068);
+}
+.categoria>h1{
+    font-family: var(--fonte-destaque);
+}
