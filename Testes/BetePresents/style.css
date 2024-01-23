@@ -288,3 +288,6 @@ div >p{
 .categoria>h1{
     font-family: var(--fonte-destaque);
 }
+.ajustado{
+    margin-left: 4%;
+}
