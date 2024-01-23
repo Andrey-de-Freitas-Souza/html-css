@@ -49,7 +49,6 @@ header>p{
     font-family: var(--fonte-padrao);    
 }
 h3{
-    text-indent: 5%;
     font-family: var(--fonte-padrao);
     font-size: 1.5em;
 }
@@ -284,7 +283,6 @@ div >p{
   }
 .copoB{
     width: 60%;
-    margin-left: -8%;
 }
 
 .ursinho{
