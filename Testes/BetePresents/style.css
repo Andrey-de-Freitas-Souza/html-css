@@ -129,6 +129,14 @@ aside{
     background-image: url("imagens/couro.jpeg");
     background-size: cover;
 }
+.btnCasa{
+    background-image: url("imagens/btnCasa.png");
+    background-size: cover;
+}
+.btnBotoes{
+    background-image: url("imagens/btnBotoes.png");
+    background-size: cover;
+}
 .btnencomendar{
     background-image: url("imagens/confetes.png");
     background-size: cover;
