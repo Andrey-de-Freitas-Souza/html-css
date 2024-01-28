@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+:root{
+    --cor0: #1100ffa1;
+    --cor1: #000000d8;
+    --cor2: #f8e8578f;
+    --cor3: #0f2218;
+    --cor4: #efe8ae33;
+
+    --fonte-destaque: 'Kaushan Script', cursive;
+    --fonte-padrao: 'Amatic SC', cursive;
+    --fonte-preco: "Noto Sans", sans-serif;
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ffa69e1a;
+    
+}
+header {
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("imagens/header.png");
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+a> h1{
+    text-shadow: 1px 1px 0px var(--cor1);
+    padding: 30px 0px 15px 0px;
+    color: var(--cor1);
+    font-size: 3em;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+} 
+
+header>p{
+    color: var(--cor1);
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);    
+}
+h3{
+    font-family: var(--fonte-padrao);
+    font-size: 1.5em;
+}
+nav{
+    width: 100%;
+    background-color: rgb(11, 212, 212);
+    padding: 5px;
+}
+nav >a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    padding:0px 5px 5px 0px;
+    color: black;
+    font-size: 1em;
+
+}
+picture>img{
+    max-height: 222px;
+    margin: 20px 0px;
+}
+a>img{
+    width: 15px;
+    height: 15px;
+}
+#home{
+    padding-right: 4px;
+    width: 15px;
+    height: 15px;
+}
+picture{
+    display: inline-block;
+}
+picture>img{
+    min-width: 100px;
+    max-width: 450px;
+    display: inline-block;
+}
+source>picture{
+    max-width: 100px;
+}
+.whats{
+    width: 18px;
+    height: 18px;    
+}
+.btnpedido{
+    margin-left: -10%;
+}
+nav> a:hover{
+    text-decoration: underline;
+}
+aside{
+    text-align: center;
+    border:solid #48304D 1px;
+    font-size: 0.7em;
+    color: #000000;
+    font-family: var(--fonte-destaque);
+    display: inline-block;
+    max-width: 700px;
+    min-width: 90px;
+    margin: 3%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btnVariedades{
+    background-image: url("imagens/variedade.jpg");
+    background-size: cover;
+}
+.btnpapelaria{
+    background-image: url("imagens/fundoPapel.jpeg");
+    background-size: cover;
+}
+.btnGarrafas{
+    background-image: url("imagens/onda.png");
+    background-size: cover;
+}
+.btnBolsas{
+    background-image: url("imagens/couro.jpeg");
+    background-size: cover;
+}
+.btnencomendar{
+    background-image: url("imagens/confetes.png");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(157, 255, 255);
+    width: 60%;
+    border-radius: 30px;
+    
+}
+.btnencomendar>h1{
+    font-size: 2.5em;
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px; 
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+.arraste{
+    display: block;
+    text-align: center;
+}
+main>p{  
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+main>h1{
+    display: inline-block;            
+    margin-right: 190px;
+    font-family: var(--fonte-destaque);
+}
+div{
+    text-align: center;
+}
+div >h1{
+    display: inline;
+    width: 300px;
+    text-align: center;
+    font-family: var(--fonte-preco);
+    color: var(--cor1);
+    padding: 5px;
+    font-size: 3em;
+    margin-top: 20px;
+    
+}
+.preco{
+    width: 65%;
+    color: white;
+    font-size: 3.0em;
+    text-align: center;
+    padding: 3% 1% ;
+    background-color: red;
+    border: double yellow ;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: var(--fonte-preco);
+    font-weight: bold;
+    display: inline-block;
+       
+}
+.preco2{
+    padding: 2% 1%;
+    border: double 5px yellow;
+    display: inline-block;
+    text-align: center;
+    width: 65%;
+    background-color: red;
+    color: white;
+    
+}
+.preco2>h2{
+    font-size: 3.0em;
+}
+.preco2>p{
+    display: inline;
+    text-align: center;
+    font-size: 1em;
+    font-family: var(--fonte-preco);
+}
+
+.bloco{
+    width: 100%;
+}
+div >p{
+    text-align: center;
+    text-indent: -180px;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    
+}
+.cor{
+    width: 23%;
+    font-size: 1em;
+    text-indent: 10%;
+    background-color: rgb(167, 5, 5);
+    display: block;
+    text-align: left;
+    color: white;
+    border: double yellow;
+    margin-bottom: 4%;
+    margin-top: -10%;
+    
+}
+
+.oferta ,.produto{
+    width: 100%;
+    margin-top: 2%;
+}
+.promocao{
+    background-image: url("imagens/fundopromo.jpg");
+    background-size: cover;
+}
+.anuncio{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -4%;
+    font-size: 0.6em;
+    font-family: var(--fonte-preco);
+}
+/* CARROSSEL */
+.containe {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    overflow-x: auto; /* Adiciona a barra de rolagem horizontal */
+  }
+
+  .content {
+    width:100%; /* Largura desejada do conteúdo */
+    white-space: nowrap; /* Evita quebrar o conteúdo em várias linhas */
+  }
+  footer{
+    text-align: center;
+    width: 100%;
+  }
+.copoB{
+    width: 60%;
+}
+
+.ursinho{
+    width: 90%;
+}
+.categoria{
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    background-color: rgba(0, 255, 255, 0.068);
+}
+.categoria>h1{
+    font-family: var(--fonte-destaque);
+}
+.ajustado{
+    margin-left: 4%;
+}
