@@ -251,7 +251,9 @@ div >p{
     margin-top: -10%;
     
 }
-
+.esgotado{
+    font-size: 2em;
+}
 .oferta ,.produto{
     width: 100%;
     margin-top: 2%;
