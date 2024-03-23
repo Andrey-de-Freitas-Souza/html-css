@@ -5,21 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo HTML</title>
     <link rel="shortcut icon" href="imagens/html.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/stylecodigos.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/stylecodigos.css">
 </head>
 <body>
     <Header>
-        <h1>Aprendendo HTML <img src="imagens/html.ico" alt="Imagem html"></h1>
+        <h1>Meu Manual de Aprendizado <br> Ciência da Computação</h1>        
         <nav>
-            <a href="index.html">Menu</a>
-            <a href="pgcoceitos.html">Conceitos</a>
-            <a href="pgcodigos.html">Códigos</a>
-            <a href="pgprojetos.html">Projetos</a>
+            <a href="../index.html">Menu</a>
+            <a href="../HTML-CSS/pghistoriainternet.html">HTML-CSS</a>
+            <a href="../GOLANG/pgGoLang.html">GoLang</a>
         </nav>
     </Header>
     <main>
+        <div class="container">
+            <a href="pghistoriainternet.html">
+                <h1 class="botao">História</h1>
+            </a>
+            <a href="pgcoceitos.html">
+                <h1 class="botao">Conceitos</h1>
+            </a>
+            <a href="pgcodigos.html">
+                <h1 class="botao">Códigos HTML</h1>
+            </a>
+            <a href="pgCss.html">
+                <h1 class="botao">Códigos CSS</h1>
+            </a>
+        </div>
         <Article>
+            <h1>Conceitos de HTML-CSS</h1>
             <h2>Imagens</h2>
             <h3>Onde achar imagens com domínios públicos</h3>
             <p>Existem vários sites que oferecem imagens
@@ -83,8 +97,8 @@
             <h2>Cores</h2>
             <p>Muita atenção, ao seguir guias de cores e artigos, pois eles não devem ser considerados como uma verdade absoluta para todos os mercados e situações. Constantemente vemos casos de marcas que adotam uma determinada paleta de cores totalmente não recomendada por esses padrões e acabam fazendo muito sucesso. Meu sincero conselho: considere as recomendações, mas não se prenda a elas. Com isso na mente, acompanhe algumas sugestões de aplicação de algumas das cores mais usadas em sites. </p>
             <picture>
-                <source media="(max-width: 400px )" srcset="imagens/tabela-cores-pq2.jpg">
-                <img src="imagens/tabela-cores.jpg" alt="Tabela de cores">
+                <source media="(max-width: 400px )" srcset="../imagens/tabela-cores-pq2.jpg">
+                <img src="../imagens/tabela-cores.jpg" alt="Tabela de cores">
             </picture>
         </article> 
         <article>
@@ -100,8 +114,8 @@
             <h2>Modelo de Caixas</h2>
             <h3>Anatomia de uma caixa</h3>
             <picture>
-                <source media="(max-width:400px )" srcset="imagens/boxmodel-pq.png">
-                <img src="imagens/boxmodel.png" alt="modelo de caixas">
+                <source media="(max-width:400px )" srcset="../imagens/boxmodel-pq.png">
+                <img src="../imagens/boxmodel.png" alt="modelo de caixas">
             </picture>
             <h3>Tipos de caixas</h3>
             <p><Strong>Caixa do tipo block-level</Strong></p>
@@ -123,7 +137,12 @@
             </ul>
             <picture>
                 <source media="(max-width: )" srcset="">
-                <img src="imagens/header.jpg" alt="boxmodel">
+                <img src="../imagens/header.jpg" alt="boxmodel">
             </picture>
         </article>
     </main>
+    <footer>
+        <p>Site desenvolvido por <strong>Andrey de Freitas Souza</strong></p>
+    </footer>  
+</body>
+</html>
