@@ -1,0 +1,59 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;    
+}
+body{
+    background: url('../imagens/fundoprincipal.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+main{
+    height: 100vh;
+    position: relative;
+}
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 527px;
+    width: 256px;   
+}
+iframe#tela{
+    background-color: white;
+    position: relative;
+    top: 32px;
+    left: 16px;
+    height: 463px ;
+    width: 215px;
+    border-bottom-left-radius:23px ;
+    border-bottom-right-radius:23px ;  
+}
+section#redes img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+section#redes{
+    text-align: center;
+}
+section#redes img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.856);
+    transform: translate(-3px, -3px);
+    transition: transform 0.1s;
+}
+.iphone{
+    position: relative;
+    margin-top: -450px;
+    pointer-events: none;
+}
