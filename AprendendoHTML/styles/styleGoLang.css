@@ -124,5 +124,5 @@ pre{
     font-size: 1.3em;
 }
 .codigo{
-    width: 50%;
+    max-width: 100%;
 }
