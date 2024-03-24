@@ -78,9 +78,9 @@
         fmt.Printf("w: , %v, %T\n", w, w)
     
     }   
-            </pre>
-            <h3>Resultado:</h3>
-            <pre class="codigo">
+
+<h3>Output:</h3>
+            
         x: , 10, int
         y: , Olá, Bom dia!, string
         z: , false, bool
@@ -88,6 +88,95 @@
         j: , 30, int
         w: , Variavel package level escope, string
             </pre>
+            
+            
+            <h2>Declaração, inicialização e atribuição</h2>
+            <pre class="codigo">
+        package main
+
+        import "fmt"
+        
+        var x int //isso é uma declaração
+        
+        func main() {
+            x = 10 //isso é uma inicialização
+            fmt.Printf("%v, %T \n", x, x)
+            x = 20 //isso é uma atribuição
+            fmt.Printf("%v, %T", x, x)
+        }
+
+<h3>Output:</h3>
+        10, int 
+        20, int
+            </pre>
+            <h2>Criando o própio tipo</h2>
+            <pre>
+        type hotdog int
+
+        var b hotdog
+        
+        func main() {
+            x := 10
+            fmt.Printf("%T\n", x)
+            fmt.Printf("%T", b)
+        }      
+<h3>Output:</h3>
+        int
+        main.hotdog 
+            </pre>
+            <h2>Convertendo Tipos</h2>
+            <pre>
+        type hotdog int
+
+        var b hotdog = 101
+        
+        func main() {
+            x := 10
+            fmt.Printf("%T , %v\n", x, x)
+        
+            x = int(b)
+            fmt.Printf("%T , %v\n", x, x)
+        }     
+<h3>Output:</h3>
+        int , 10
+        int , 101
+            </pre>
+            <h2>O Pacote fmt</h2>
+            <p>Existem dois tipos de Strings na liguagem GO, as interpreted strings literals e as raw string literals, veja a seguir um exemplo de cada:</p>
+            <pre>
+        package main
+
+        import "fmt"
+        
+        func main() {
+            x := "Isso é \n uma \t interpreted strings"
+            fmt.Printf("%v, %T \n", x, x)
+            y := `"Isso é  uma  raw strings"`
+            fmt.Printf("%v, %T \n", y, y)
+        }
+            </pre>
+            <p>As raw Strings são decalradas entre ` e não são interpretadas</p><br>
+            <h3>Função Sprintln</h3>
+            <p>A função Sprintln Concatena strings, mas não exibe nada na tela.</p>
+            <pre>
+        package main
+
+        import "fmt"
+        
+        func main() {
+            x := "Oi "
+            y := "Bom dia"
+            z := fmt.Sprintln(x, y)
+            fmt.Printf(z)
+        }   
+            </pre>
+            <h3>Output:</h3>
+        <pre>
+        Oi  Bom dia
+        </pre> 
+
+
+            
         </article>
     </main>  
     <footer>
