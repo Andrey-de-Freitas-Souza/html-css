@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendendo HTML</title>
+    <title>Ciência da Computação</title>
     <link rel="shortcut icon" href="imagens/html.ico" type="image/x-icon">
     <link rel="shortcut icon" href="imagens/html.ico" type="image/x-icon">
     <link rel="stylesheet" href="../styles/style.css">
@@ -33,6 +33,61 @@
                 
             </div>
             <h1>Códigos GoLang</h1>
+            <h2>O tradicional Hello World</h2>
+            <pre>       
+    package main
+
+    import (
+        "fmt"
+    )
+    
+    func main() {
+        fmt.Println("Hello, world", "Oi galera", 100)
+
+    }
+
+            </pre>
+            <h2>Declaração de variáveis</h2>
+            <pre>
+    package main
+
+    import (
+        "fmt"
+    )
+    
+    // variavel que funciona em todo package
+    var w = "Variavel package level escope"
+    
+    func main() {
+        /*variaveis que funcionam apenas nesse codeblock e
+        apenas se forem declaradas antes de serem chamadas*/
+        x := 10
+        y := "Olá, Bom dia!"
+        z := false
+    
+        //utilizado o comando Printf (print formatado)
+        //%v = Valor
+        //%T = Tipo
+        fmt.Printf("x: , %v, %T\n", x, x)
+        fmt.Printf("y: , %v, %T\n", y, y)
+        fmt.Printf("z: , %v, %T\n", z, z)
+    
+        x, j := 20, 30
+        fmt.Printf("x: , %v, %T\n", x, x)
+        fmt.Printf("j: , %v, %T\n", j, j)
+        fmt.Printf("w: , %v, %T\n", w, w)
+    
+    }   
+            </pre>
+            <h3>Resultado:</h3>
+            <pre>
+        x: , 10, int
+        y: , Olá, Bom dia!, string
+        z: , false, bool
+        x: , 20, int
+        j: , 30, int
+        w: , Variavel package level escope, string
+            </pre>
         </article>
     </main>  
     <footer>
