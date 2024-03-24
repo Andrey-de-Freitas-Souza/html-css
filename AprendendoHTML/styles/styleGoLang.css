@@ -121,8 +121,5 @@ article>p{
 }
 
 pre{
-    font-size: 1.3em;
-}
-.codigo{
-    max-width: 100%;
+    font-size: 100%;
 }
