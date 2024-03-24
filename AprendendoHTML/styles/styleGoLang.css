@@ -121,5 +121,9 @@ article>p{
 }
 
 pre{
-    font-size: 100%;
+    font-size: 1.3em;
+}
+.codigo{
+    overflow-x: auto;
+    max-width: 100%;
 }
