@@ -49,12 +49,7 @@
             </pre>
             <h2>Declaração de variáveis</h2>
             <pre class="codigo">
-    package main
 
-    import (
-        "fmt"
-    )
-    
     // variavel que funciona em todo package
     var w = "Variavel package level escope"
     
@@ -92,10 +87,6 @@
             
             <h2>Declaração, inicialização e atribuição</h2>
             <pre class="codigo">
-        package main
-
-        import "fmt"
-        
         var x int //isso é uma declaração
         
         func main() {
@@ -144,10 +135,7 @@
             <h2>O Pacote fmt</h2>
             <p>Existem dois tipos de Strings na liguagem GO, as interpreted strings literals e as raw string literals, veja a seguir um exemplo de cada:</p>
             <pre class="codigo">
-        package main
 
-        import "fmt"
-        
         func main() {
             x := "Isso é \n uma \t interpreted strings"
             fmt.Printf("%v, %T \n", x, x)
@@ -159,10 +147,6 @@
             <h3>Função Sprintln</h3>
             <p>A função Sprintln Concatena strings, mas não exibe nada na tela.</p>
             <pre class="codigo">
-        package main
-
-        import "fmt"
-        
         func main() {
             x := "Oi "
             y := "Bom dia"
@@ -174,6 +158,60 @@
         <pre>
         Oi  Bom dia
         </pre> 
+        <h2>Transformando Strings em Bytes</h2>
+        <pre class="codigo">
+        func main() {
+            s := "Hello, âéìõú"
+            sb := []byte(s)
+        
+            for _, v := range sb {
+                fmt.Printf("%v - %T - %#U - %#x\n", v, v, v, v)
+            }
+            fmt.Println("")
+        
+            for i := 0; i < len(s); i++ {
+                fmt.Printf("%v - %T - %#U - %#x\n", s[i], s[i], s[i], s[i])
+            }
+        }
+        </pre>
+        <h3>Output:</h3>
+        <pre class="codigo">
+        72 - uint8 - U+0048 'H' - 0x48
+        101 - uint8 - U+0065 'e' - 0x65
+        108 - uint8 - U+006C 'l' - 0x6c
+        108 - uint8 - U+006C 'l' - 0x6c
+        111 - uint8 - U+006F 'o' - 0x6f
+        44 - uint8 - U+002C ',' - 0x2c
+        32 - uint8 - U+0020 ' ' - 0x20
+        195 - uint8 - U+00C3 'Ã' - 0xc3
+        162 - uint8 - U+00A2 '¢' - 0xa2
+        195 - uint8 - U+00C3 'Ã' - 0xc3
+        169 - uint8 - U+00A9 '©' - 0xa9
+        195 - uint8 - U+00C3 'Ã' - 0xc3
+        172 - uint8 - U+00AC '¬' - 0xac
+        195 - uint8 - U+00C3 'Ã' - 0xc3
+        181 - uint8 - U+00B5 'µ' - 0xb5
+        195 - uint8 - U+00C3 'Ã' - 0xc3
+        186 - uint8 - U+00BA 'º' - 0xba
+        
+        72 - uint8 - U+0048 'H' - 0x48
+        101 - uint8 - U+0065 'e' - 0x65
+        108 - uint8 - U+006C 'l' - 0x6c
+        108 - uint8 - U+006C 'l' - 0x6c
+        111 - uint8 - U+006F 'o' - 0x6f
+        44 - uint8 - U+002C ',' - 0x2c
+        32 - uint8 - U+0020 ' ' - 0x20
+        195 - uint8 - U+00C3 'Ã' - 0xc3
+        162 - uint8 - U+00A2 '¢' - 0xa2
+        195 - uint8 - U+00C3 'Ã' - 0xc3
+        169 - uint8 - U+00A9 '©' - 0xa9
+        195 - uint8 - U+00C3 'Ã' - 0xc3
+        172 - uint8 - U+00AC '¬' - 0xac
+        195 - uint8 - U+00C3 'Ã' - 0xc3
+        181 - uint8 - U+00B5 'µ' - 0xb5
+        195 - uint8 - U+00C3 'Ã' - 0xc3
+        186 - uint8 - U+00BA 'º' - 0xba
+        </pre>
         
 
 

@@ -35,51 +35,7 @@
             <h1>Conceitos em GoLang</h1>
             <h2>Eficiência</h2>
             <p>A linguagem GoLang visa a eficiência, portanto se você declarar uma variável e ela não for utilizada em nenhuma parte do programa, a linguagem interpretará como ineficiência e irá gerar um erro. Para que isso não ocorra, podemos usar o "_" para descartar o valor, assim não irá ser gerado o erro. </p>
-            <h2>Como funcionam os computadores?</h2>
-            <h3>O primeiro computador</h3>
-            <p>Electronic Numerical Integrator and Computer (ENIAC - em português: computador integrador numérico eletrônico) foi o primeiro computador digital eletrônico de grande escala. Muitos comentam que o primeiro foi o Mark I, mas este era apenas eletromecânico. O ENIAC entrou em funcionamento em fevereiro de 194 6pelas mãos dos cientistas norte-americanos John Eckert e John Mauchly, da Electronic Control Company.</p>
-            <p>
-                O ENIAC começou a ser desenvolvido em 1943 durante a II Guerra Mundial para computar trajetórias táticas que exigiam conhecimento substancial em matemática com mais agilidade, mas só se tornou operacional após o final da guerra.</p>
-                <ul>
-                    <li>Sua capacidade de processamento era suficiente apenas para realizar 5 000 adições, 357 multiplicações ou 38 divisões por segundo - o que era considerado muito rápido na época;</li>
-                    <li>Criado na segunda guerra, tinha como principal finalidade cálculos balísticos;</li>
-                    <li>Possuía cerca de 18 000 válvulas termiônicas, de 160 kW de potência.</li>
-                </ul>
-                <img class="imgGrande" src="../imagens/Eniac.jpg" alt="">
-            <h3>Computadores Funcionam com eletricidade.</h3><br>
-            <p>On & Off, 1 & 0 , dígitos binários, bits, e linguagem de máquina são termos utilizados para se referir a idéira de que, em um computador, é tudo um monte de zero e um , que dizem se a eletrcidade está ligada ou desligada.</p>
-            <h3>A eletricidade pode estar ligada ou desligada:</h3><br>
-                <ul >
-                <li>Esquema de codificação (Atribuindo significado aos estados on e off)</li>
-                <table>
-                    <tr>
-                        <td>On On (1 1)</td>
-                        <td>É festa!</td>
-                    </tr> 
-                    <tr>
-                        <td>On Off  (0 0)</td>
-                        <td>Hoje tem filme!</td> 
-                    </tr>
-                    <tr>
-                        <td>Off On  (0 1)</td>
-                        <td>Bora estudar.</td>
-                    </tr>
-                    <tr>
-                        <td>Off Off  (0 0)</td>
-                        <td>zZzZzZ</td>
-                    </tr>
-                    </table>
-                    <img class="imgPeq"src="../imagens/BotaoLigaDesliga.png" alt="">
-                    <li>Curiosidade: Esse é o motivo do símbolo Liga/Desliga ser assim, é um 0 e um 1!</li>
-                <li>Lâmpadas na varanda 2<sup>n</sup></li>
-                <ul class="ajusteLista">
-                    <li>1 lâmpada = 2 mensagens</li>
-                    <li>2 lâmpadas = 4 mensagens</li>
-                    <li>3 lâmpadas = 8 mensagens</li>
-                </ul>
-                <li><mark>Bi</mark>nary Digi<mark>ts</mark> = Bits</li>
-                </ul>
-            </ul>
+            
             
             <h2>Declaração e atribuição de Variáveis</h2>
             <p>Em Go, utilizamos o operador ":=" (gopher) para declarar e atribuir um valor inicial a uma nova variável. O Go definirá automaticamente o tipo da variável com base no valor fornecido durante a declaração. No entanto, é importante notar que este operador só pode ser usado para declarar uma nova variável, não para atribuir um valor a uma variável já existente, para isso utilizamos o operador "=". Um detalhe importante é que o gopher funciona apenas em codeblocks, para declarar uma variável "global" deve ser utilizado o comando "var x = 1" fora de um codeblock </p>
@@ -133,8 +89,9 @@
                 <li>Bollean: False</li>
                 <li>Strings: ""</li>
                 <li>Pointer, Function, interfaces, slices, channels, maps: nil</li>
-                
-            </ul>
+            </ul><br>
+            <h3>Overflow</h3><br>
+            <p>Quando é definida com um valor maior que limite dela, o código gera erro. Caso ela atinja o valor limite e seja adicionado mais valores a ela ,ela zera como um odômetro.</p>
             
             
         </article>
