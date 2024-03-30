@@ -2,7 +2,7 @@
 :root{
     --cor1:#041f36;
     --cor2:#2BFDBE;
-    --cor3:#2BDEFD;
+    --cor3:#2BFDBE;
     --cor4:#395ADC;
 
     --fonte-destaque:'Teko', sans-serif;
@@ -47,7 +47,11 @@ ol>h3{
 }
 li{
     margin-left: 30px;
+    
+
 }
+
+
 ul>h3{
     display: inline-block;
     text-indent: 10px;
@@ -92,6 +96,32 @@ ul>h3{
     font-weight: bold;
     text-shadow: 1px 2px 2px black;
 }
+.ajusteLista{
+    font-size: 0.9em;
+    font-family: var(--fonte-padrao); 
+    margin-left: 5%;
+}
+.imgPeq{
+    max-width: 20%;
+}
+.imgGrande{
+    width: 60%;
+}
+table{
+    margin-left: 15%;
+    font-size: 0.8em;
+    font-family: var(--fonte-padrao); 
+    border-collapse: collapse;
+    display: inline-block;
+    
+}
+ td{
+    border: solid 1px black; 
+    padding: 10px 25px;
+    white-space: nowrap; 
+    text-align: center;
+}
+
 div>a{
     text-decoration: none;
 }
