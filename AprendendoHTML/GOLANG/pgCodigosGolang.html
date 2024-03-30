@@ -83,6 +83,18 @@
         j: , 30, int
         w: , Variavel package level escope, string
             </pre>
+            <h2>Declaração de constantes:</h2>
+            <pre>
+        const (
+            x = 10
+            y = 20
+            z = 30
+        )
+        
+        func main() {
+            fmt.Println(x,y,z)
+        }  
+            </pre>
             
             
             <h2>Declaração, inicialização e atribuição</h2>
@@ -158,7 +170,7 @@
         <pre>
         Oi  Bom dia
         </pre> 
-        <h2>Transformando Strings em Bytes</h2>
+        <h2>Transformando Variáveis em Bytes</h2>
         <pre class="codigo">
         func main() {
             s := "Hello, âéìõú"
@@ -211,6 +223,19 @@
         181 - uint8 - U+00B5 'µ' - 0xb5
         195 - uint8 - U+00C3 'Ã' - 0xc3
         186 - uint8 - U+00BA 'º' - 0xba
+        </pre>
+        <h3>Transformando valores em sistemas binários e hexadecimais</h3>
+        <pre class="codigo">
+        func main() {
+            a := 100
+            fmt.Printf("%d \nBinário:/n%b\nHexdecimal:%#x", a, a, a)
+        }        
+        </pre>
+        <h3>Output:</h3>
+        <pre class="codigo">
+        100 
+        Binário:/n1100100
+        Hexdecimal:0x64
         </pre>
         
 
