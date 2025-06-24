@@ -90,8 +90,8 @@ h2{
 
 .event-box {
   position: absolute;
-  width: 130px;
-  height: 150px;
+  width: 100px;
+  height: 115px;
   background: #fff0f5;
   border-radius: 12px;
   padding: 10px 15px;
@@ -103,7 +103,7 @@ h2{
 .event-box h3 {
   color: #ff0000;
   margin: 0 0 6px;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 .event-box p {
@@ -113,7 +113,7 @@ h2{
 }
 
 .event-box.left {
-  left: -175px;
+  left: -145px;
   text-align: left;
 }
 
@@ -126,7 +126,7 @@ h2{
 .carousel {
   position: relative;
   width: 100%;
-  height: 120px;
+  height: 75px;
   overflow: hidden;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -135,7 +135,7 @@ h2{
 .carousel img {
   position: absolute;
   width: 100%;
-  height: 120px;
+  height: 75px;
   object-fit: cover;
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
@@ -149,16 +149,16 @@ h2{
 
 .carousel-buttons {
   position: absolute;
-  bottom: 8px;
+  bottom: 4px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 .carousel-buttons button {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.507);
   border: none;
   padding: 5px 12px;
   font-size: 18px;
